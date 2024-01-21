@@ -152,11 +152,6 @@ if (isset($_POST['startGame']) || isset($_POST['resetGame'])) {
     $password = "";
     $dbname = "sudoku_db";
 
-    // $servername = "	sql107.infinityfree.com";
-    // $username = "if0_35829092";
-    // $password = "lWXQnNAxexGF";
-    // $dbname = "if0_35829092_sudokuByGaurav";
-
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     if ($conn->connect_error) {
